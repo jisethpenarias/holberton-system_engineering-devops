@@ -8,3 +8,4 @@ In this folder you will find the following scripts:
 5-listfilesdigitonly: Display current directory contents.Long format with user and group IDs displayed numerically And hidden files.
 6-firstdirectory: This script file is for creates a directory named holberton in the /tmp/ directory.
 7-movethatfile:Move the file betty form tmp to temp holberton
+8-firstdelete:Delete the file betty is in tmp holberton.
