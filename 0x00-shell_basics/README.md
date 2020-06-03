@@ -10,3 +10,4 @@ In this folder you will find the following scripts:
 7-movethatfile:Move the file betty form tmp to temp holberton
 8-firstdelete:Delete the file betty is in tmp holberton.
 9-firstdirdeletion: Delete the directory holberton that is in the /tmp directory.
+10-back: This is file is for changes the working directory to the previous one.
