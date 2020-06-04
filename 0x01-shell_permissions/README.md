@@ -11,3 +11,4 @@ This is README file of the project Shell, permissions
 8-James_Bond: a script that sets the permission to the file hello as follows:
 9-John_Doe:a script that sets the mode of the file hello to this:
 10-mirror_permissions: a script that sets the mode of the file hello the same as olleh’s mode.
+11-directories_permissions:Create a script that adds execute permission to all subdirectories of the current directory for the owner, the group owner and all other users. Regular files should not be changed.
