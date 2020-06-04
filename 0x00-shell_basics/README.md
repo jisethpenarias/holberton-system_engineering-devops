@@ -1,6 +1,7 @@
 In this folder you will find the following scripts:
 
-0-current_working_directory: This script file is for print the working directory
+ean_emacsi
+~-current_working_directory: This script file is for print the working directory
 1-listit: Display the contents list of your current directory
 2-bring_me_home:This script file is for back to home directory
 3-listfiles: Display current directory contents in a long format
@@ -16,4 +17,5 @@ In this folder you will find the following scripts:
 13-symbolic_link: Create a symboliclink to ... named ...
 14-copy_html: a script that copies all the HTML files from the current working directory to the parent of the working directory...
 15-lets_move: Create a script that moves all files beginning with an uppercase letter to the directory
+16-clean_emacs: script that deletes all files in the current working directory that end with the character ~.
 
