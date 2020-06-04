@@ -18,4 +18,5 @@ ean_emacsi
 14-copy_html: a script that copies all the HTML files from the current working directory to the parent of the working directory...
 15-lets_move: Create a script that moves all files beginning with an uppercase letter to the directory
 16-clean_emacs: script that deletes all files in the current working directory that end with the character ~.
+17-tree: script that creates the directorieswelcome/, welcome/to/ and welcome/to/holberton in the current directory.
 
