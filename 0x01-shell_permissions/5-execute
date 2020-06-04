@@ -1,2 +1,3 @@
 #!/bin/bash
-chmond 764 hello
+chmod 764 hello
+
