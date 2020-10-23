@@ -2,7 +2,7 @@
 # displays the content of the current working directory.
 
 i=$(ls)
-for i in $i
+for i in *
 do
     echo "$i" | cut -d'-' -f2
 done
