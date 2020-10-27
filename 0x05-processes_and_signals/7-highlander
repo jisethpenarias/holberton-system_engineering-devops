@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+# scrip that displays To infinity and beyond and I am invincible!!!
+
+_invincible() { 
+  echo "I am invincible!!!"
+}
+
+trap _invincible SIGTERM
+
+i=1
+while [ $i -lt 2 ];
+do
+    echo "To infinity and beyond"
+    sleep 2
+done
