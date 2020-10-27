@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# this is script that kills the process.
+# with kill -9 it is re-signed and it ends forcefully with a process
+
+kill -9 "$(pgrep -f "7-highlander")"
