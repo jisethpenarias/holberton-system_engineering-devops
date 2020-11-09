@@ -2,7 +2,6 @@
 
 
   <article id="description" class="gap formatted-content">
-    <h2><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Contexto de fondo</font></font></h2>
 
 <h2>Background Context</h2>
 
