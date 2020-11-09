@@ -1,13 +1,5 @@
-<h1 class="gap"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">0x06. </font><font style="vertical-align: inherit;">Expresión regular</font></font></h1>
+<h1 class="gap"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">0x06. </font><font style="vertical-align: inherit;">Regular expression</font></font></h1>
 
- <div class="gap formatted-content">
-      <p style="margin-bottom: 0"><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Para este proyecto, se espera que los estudiantes observen este concepto:</font></font></em></p>
-      <ul style="margin-top: 5px">
-          <li>
-            <em><a href="/concepts/29"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Expresión regular</font></font></a></em>
-          </li>
-      </ul>
-    </div>
 
   <article id="description" class="gap formatted-content">
     <h2><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Contexto de fondo</font></font></h2>
