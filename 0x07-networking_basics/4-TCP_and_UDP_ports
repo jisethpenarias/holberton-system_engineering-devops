@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# netstat command: check listening ports and applications
+# -l: Show listening sockets. For example, 
+# TCP port 22 is opened by SSHD server.
+# -p: List process name that opened sockets
+netstat -l -p
