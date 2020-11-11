@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# script that displays listening ports
 # netstat command: check listening ports and applications
 # -l: Show listening sockets. For example, 
 # TCP port 22 is opened by SSHD server.
