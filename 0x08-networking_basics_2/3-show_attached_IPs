@@ -11,4 +11,4 @@
 # cut: cuts sections from each line of files and writes the result to standard output.
 # cut -d "delimiter" -f (field number)
 
-ifconfig | grep "inet addr" | cut -d: -f2 | cut -d" " -f1
+ifconfig | grep "inet addr" | cut -d":" -f2 | cut -d" " -f1
