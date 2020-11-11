@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+# Script that displays all active IPv4
+# IPs on the machine it’s executed on.
+
+# ifconfig allows you to set IP addresses, 
+# manage interfaces, configure interfaces and everything 
+# related to the network itself.
+
+# inet addr is the internet address assigned to that particular interface
+
+# cut: cuts sections from each line of files and writes the result to standard output.
+# cut -d "delimiter" -f (field number)
+
+ifconfig | grep "inet addr" | cut -d: -f2 | cut -d" " -f1
