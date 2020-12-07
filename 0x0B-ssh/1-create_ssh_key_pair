@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# creates an RSA key pair.
+# -f: "File" Specifies name of the file in which to store the created key.
+# -b: “Bits” This option specifies the number of bits in the key.
+# -N: "New" Provides a new passphrase for the key.
+
+ssh-keygen -f holberton -b 4096 -N betty
