@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+# Install nginx web server
+sudo apt-get update
+# -y option, respond to all requests interactively
+sudo apt-get -y install nginx
+# Adjust the Firewall, allow traffic on port 80
+sudo ufw allow 'Nginx HTTP'
+# Get Familiar with Important Nginx Files and Directories: Index file
+sudo echo 'Holberton School' > /var/www/html/html/index.html
+# Start Nginx
+sudo service nginx start
