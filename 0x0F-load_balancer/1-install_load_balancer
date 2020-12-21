@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+# Install and configure HAproxy on the lb-01 server
+
+sudo apt-get -y update
+sudo apt-get -y install haproxy
+
+# In order to manage HAProxy via an init script, the following change has to be done: "ENABLED=1"...
+sudo echo "ENABLED=1" | sudo tee -a /etc/default/haproxy
+
+# Distribute requests using a roundrobin algorithm
+sudo echo "
+frontend http_front
+	bind *:80
+	mode http
+	default_backend back
+backend http_back
+    balance roundrobin
+    server 1875-web-01 35.243.150.179:80 check
+    server 1875-web-02 35.227.36.71:80 check
+" | sudo tee -a /etc/haproxy/haproxy.cfg
+sudo service haproxy start
