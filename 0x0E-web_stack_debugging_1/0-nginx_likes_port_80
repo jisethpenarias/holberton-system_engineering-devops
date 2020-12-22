@@ -2,5 +2,5 @@
 # Nginx installation from listening on port 80
 
 sudo sed -i 's/8080/80/g' /etc/nginx/sites-available/default
-sudp sed -i 's/8080/80/g' /etc/nginx/sites-enabled/default
+sudo sed -i 's/8080/80/g' /etc/nginx/sites-enabled/default
 sudo service nginx restart
